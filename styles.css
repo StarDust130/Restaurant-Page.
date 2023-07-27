@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Dancing+Script&family=Fasthand&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    font-size: 2rem;
+    font-weight: 600;
+    color:black;
+    text-align: left;
+    font-size: 2.3rem;
+    font-weight: 900;
+    line-height: 200px;
+    display: inline-block;
+    vertical-align: middle;
+   padding-left: 25px;
+   padding-top: 120px;
+   color: rgb(229, 12, 12);  
+   font-family: 'Fasthand', cursive;
+}
+h1:hover{
+    color:rgb(2, 69, 252) ;
+}
+h1:focus{
+    color: rgb(79, 69, 69);
+}
+h1:active{
+    transform: scale(0.9);
+}
+p{
+    font-size: 1.1rem;
+    color:rgb(79, 69, 69) ;
+    margin-top: 1rem;
+    font-family: 'Dancing Script', cursive;
+    position: relative;
+    top: -50px;
+    left: 220px;
+    font-size: 2rem;
+}
+p:hover{
+    color: rgb(19, 216, 207);
+    
+}
+.btno{
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 1.1rem;
+    padding: 0.7rem 2rem;
+    border: 2px solid rgb(199, 113, 113);
+    background: transparent;
+    color: rgb(199, 113, 113);
+    transition: all 0.5s ease;
+    cursor: pointer;
+    margin-top: 1rem;
+    position: relative;
+    top: -50px;
+    left: 280px;
+}
+.btno:hover{
+    background: rgb(202, 16, 16);
+    color: white;
+}
+.btno:focus{
+    outline: none;
+}
+.btno:active{
+    transform: scale(0.9);
+}
+
+
+.bg{
+    background: url(Eating-burger-EroManga-Sensei-Izumi.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    font-family: 'Lato', sans-serif;
+    height: 100vh;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    display: fixed;
+    margin-top: 60px;
+
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: transparent;
+    color: aqua;
+    
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    box-shadow: 0 5px 30px rgba(0,0,0,0.1);
+}
+
