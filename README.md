@@ -1,2 +1,2 @@
 # Restaurant-Page.
-see live -> https://stardust130.github.io/Restaurant-Page./
+See live -> https://stardust130.github.io/Restaurant-Page./
